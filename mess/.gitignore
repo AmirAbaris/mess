@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# Xcode
+*.xcuserstate
+*.xcworkspace
+DerivedData/
+build/
+
+# Swift Package Manager
+.build/
+
+# Personal notes
+notes/
+secrets.json

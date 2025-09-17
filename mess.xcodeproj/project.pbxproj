@@ -7,12 +7,36 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		E97268172E79F83400B099EF /* mess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mess.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E97F8D2F2E7AA8B8004A5732 /* mess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = mess.app; path = "/Users/amirabaris/Documents/mess/build/Debug-iphoneos/mess.app"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		E97F8D2D2E7AA811004A5732 /* Exceptions for "mess" folder in "mess" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				README.md,
+			);
+			target = E97268162E79F83400B099EF /* mess */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		E97F8D2E2E7AA811004A5732 /* Exceptions for "mess" folder in "Compile Sources" phase from "mess" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = E97268132E79F83400B099EF /* Sources */;
+			membershipExceptions = (
+				README.md,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		E97268192E79F83400B099EF /* mess */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				E97F8D2D2E7AA811004A5732 /* Exceptions for "mess" folder in "mess" target */,
+				E97F8D2E2E7AA811004A5732 /* Exceptions for "mess" folder in "Compile Sources" phase from "mess" target */,
+			);
 			path = mess;
 			sourceTree = "<group>";
 		};
@@ -33,16 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				E97268192E79F83400B099EF /* mess */,
-				E97268182E79F83400B099EF /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		E97268182E79F83400B099EF /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				E97268172E79F83400B099EF /* mess.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -67,7 +82,7 @@
 			packageProductDependencies = (
 			);
 			productName = mess;
-			productReference = E97268172E79F83400B099EF /* mess.app */;
+			productReference = E97F8D2F2E7AA8B8004A5732 /* mess.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -95,7 +110,7 @@
 			mainGroup = E972680E2E79F83400B099EF;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = E97268182E79F83400B099EF /* Products */;
+			productRefGroup = E972680E2E79F83400B099EF;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
