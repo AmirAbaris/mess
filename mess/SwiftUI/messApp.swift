@@ -16,3 +16,7 @@ struct messApp: App {
         }
     }
 }
+
+#Preview {
+    ContentView()
+}
